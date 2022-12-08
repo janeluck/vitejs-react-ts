@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import { Tabs, DragTabList, PanelList, helpers } from '@react-tabtab-next/tabtab';
-import { TabList, ActionButton, Tab, Panel  } from './tabsStyle';
+import { Tabs, DragTabList, PanelList, helpers, Tab } from '@react-tabtab-next/tabtab';
+import { Panel } from './tabsStyle';
 const makeData = (number: number, titlePrefix = 'Tab') => {
   const data = [];
   for (let i = 0; i < number; i++) {

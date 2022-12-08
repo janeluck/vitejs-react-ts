@@ -48,6 +48,8 @@ ActionButton = styled(ActionButton)`
     }
 `;
 
-Panel = styled(Panel)``;
+Panel = styled(Panel)`
+    color: red;
+`;
 
 export { TabList, ActionButton, Tab, Panel };
